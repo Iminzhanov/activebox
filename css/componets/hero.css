@@ -1,0 +1,21 @@
+
+.hero__row {
+    display: flex;
+    padding-top: 120px;
+}
+.hero__menu {
+    text-align: center;
+}
+.hero__menu h3 {
+    padding: 30px 0;
+}
+.hero__menu p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 15px;
+}
+.hero__section {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 127px;
+}

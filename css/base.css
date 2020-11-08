@@ -30,3 +30,6 @@ p {
     max-width: 1170px;
     margin: 0 auto;
 }
+.col-4 {
+    width: 33.33%;
+}

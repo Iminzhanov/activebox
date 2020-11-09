@@ -1,0 +1,40 @@
+.team {
+    padding-top: 100px;
+}
+.team__menu {
+    display: flex;
+}
+.team__item h4 {
+    padding-top: 33px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+.team__item {
+    padding-bottom: 100px;
+}
+.team__item span {
+    color: red;
+}
+.team__item p {
+    padding-top: 40px;
+    line-height: 16px;
+    width: 265px;
+}
+.team__icon {
+    padding-top: 30px;
+}
+.facebook {
+    border: 1px solid #e7ebed;
+    padding: 12px 15px 5px;
+}
+.twiter {
+    text-align: center;
+    border: 1px solid #e7ebed;
+    padding: 12px 9px 5px;
+}
+.inbox {
+    border: 1px solid #e7ebed;
+    padding: 12px 10px 5px;
+}

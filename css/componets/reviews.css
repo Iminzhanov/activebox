@@ -11,11 +11,19 @@
 }
 
 
+
 .reviews__photo {
     width: 50%;
     height: 500px;
     position: relative;
     
+}
+.reviews__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+   height: 500px;
 }
 
    
@@ -34,16 +42,30 @@
     color: white;
     margin-bottom: 25px;
 }
-.reviews__img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-   height: 500px;
-}
 .reviews__autor {
     font-size: 13px;
     font-weight: 700px;
     text-transform: uppercase;
     color: white;
+    padding-top: 20px;
+}
+.slick-slide {
+     border: none !important;
+     outline: none !important;
+}
+.slick-arrow {
+    display: none !important ;
+}
+ .slick-dots {
+     width: 10%;
+     justify-content: space-around;
+    bottom: 90px;
+    left: 50%;
+    display: flex;
+    list-style: none;
+    cursor: pointer; 
+    font-size: 0;
+    background-color: #CECECE;
+    outline: none;
+    margin-right: 15px;
 }

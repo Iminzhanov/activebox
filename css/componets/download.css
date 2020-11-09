@@ -1,0 +1,27 @@
+.download {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.download__text h5 {
+    font-size: 28px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.download__text span {
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn__download {
+    padding-top: 40px;
+}
+.btn__download a {
+    font-size: 13px;
+
+    text-decoration: none;
+    color: white;
+    padding: 13px 84px;
+    background-color: red;
+    font-weight: 600;
+}

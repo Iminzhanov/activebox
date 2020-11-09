@@ -117,3 +117,18 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.slick-dots {
+    background-color: transparent;
+    width: 50%;
+}
+.slick-dots button{
+    text-align: center;
+    right: 0;
+
+    height: 10px;
+    font-size: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
